@@ -13,7 +13,7 @@
 	<packaging>jar</packaging>
 
 	<properties>
-		<lotaris.rox.client.junit.version>2.0.0</lotaris.rox.client.junit.version>
+		<lotaris.rox.client.junit.version>2.0.1</lotaris.rox.client.junit.version>
 		<lotaris.minirox.client.core.version>2.0.1</lotaris.minirox.client.core.version>
 	</properties>
 
@@ -77,7 +77,7 @@
 				<plugins>
 					<plugin>
 						<groupId>com.lotaris.maven.rox.plugins</groupId>
-						<artifactId>maven-rox-junit-plugin</artifactId>
+						<artifactId>rox-junit-maven-plugin</artifactId>
 						<version>${lotaris.rox.maven.junit.version}</version>
 						<executions>
 							<execution>
