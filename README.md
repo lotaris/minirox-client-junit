@@ -2,29 +2,39 @@
 
 > JUnit client for [Mini ROX](https://github.com/lotaris/minirox) written in Java.
 
+# rox-client-junit
+
+> JUnit client for [ROX Center](https://github.com/lotaris/rox-center) written in Java.
+
 ## Usage
 
-1. Clone the [Mini ROX Java Client](https://github.com/lotaris/minirox-client-java) and follow the instructions.
-
-2. Clone the repository.
-
-3. Run the following command
-
-```bash
-cd <projectFolder>
-mvn clean install
-```
-
-4. Put the following dependency in your pom.xml
+1. Put the following dependency in your pom.xml
 
 ```xml
 <dependency>
   <groupId>com.lotaris.minirox.client</groupId>
   <artifactId>minirox-client-junit</artifactId>
-  <version>2.2.0</version>
+  <version>2.1.1</version>
 </dependenc>
 ```
 
+2. Configuration with Maven Surefire
+
+```xml
+<plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-surefire-plugin</artifactId>
+	<version>2.18.1</version>
+	<configuration>
+		<properties>
+			<property>
+				<name>listener</name>
+				<value>com.lotaris.minirox.client.junit.MiniRoxListener</value>
+			</property>
+		</properties>
+	</configuration>
+</plugin>
+```
 ### Requirements
 
 * Java 6+
