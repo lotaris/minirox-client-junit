@@ -14,7 +14,7 @@
 <dependency>
   <groupId>com.lotaris.minirox.client</groupId>
   <artifactId>minirox-client-junit</artifactId>
-  <version>2.1.1</version>
+  <version>2.2.2</version>
 </dependenc>
 ```
 
