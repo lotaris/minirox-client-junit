@@ -6,7 +6,7 @@
 
 	<groupId>com.lotaris.minirox.client</groupId>
 	<artifactId>minirox-client-junit</artifactId>
-	<version>2.2.2</version>
+	<version>2.2.3</version>
 	<packaging>jar</packaging>
 
 	<name>MiniROX Client jUnit</name>
@@ -38,7 +38,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<lotaris.rox.client.junit.version>2.2.2</lotaris.rox.client.junit.version>
-		<lotaris.minirox.client.core.version>2.1.1</lotaris.minirox.client.core.version>
+		<lotaris.minirox.client.core.version>2.1.2</lotaris.minirox.client.core.version>
 	</properties>
 
 	<distributionManagement>

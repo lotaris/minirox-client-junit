@@ -14,8 +14,8 @@
 <dependency>
   <groupId>com.lotaris.minirox.client</groupId>
   <artifactId>minirox-client-junit</artifactId>
-  <version>2.2.2</version>
-</dependenc>
+  <version>2.2.3</version>
+</dependency>
 ```
 
 2. Configuration with Maven Surefire
